@@ -81,3 +81,6 @@ function getAkanName() {
         document.getElementById("result").innerHTML = "You were born on a Saturday & your Akan name is " + maleAkanNames[6];
         return false;
         break;
+        
+      default:
+        alert("You are not alive");
