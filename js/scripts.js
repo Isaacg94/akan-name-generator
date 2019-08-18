@@ -14,3 +14,4 @@ function getAkanName() {
       }
     }
   }
+  var myGenderValue = getGender();
