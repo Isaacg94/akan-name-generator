@@ -120,3 +120,7 @@ function getAkanName() {
       default:
       alert("Try again Robot!")
     }
+  } else {
+      alert("You have enterd an invalid month or day number")
+    }
+  }
