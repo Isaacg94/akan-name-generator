@@ -81,6 +81,14 @@ function getAkanName() {
         document.getElementById("result").innerHTML = "You were born on a Saturday & your Akan name is " + maleAkanNames[6];
         return false;
         break;
-        
+
       default:
         alert("You are not alive");
+
+    }
+  } else if (myGenderValue == "female" && monthValid && dayValid) {
+    switch (dayOfTheWeekNumber) {
+      case 0:
+        document.getElementById("result").innerHTML = "You were born on a Sunday & your Akan name is " + maleAkanNames[0];
+        return false;
+        break;
