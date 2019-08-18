@@ -15,3 +15,10 @@ function getAkanName() {
     }
   }
   var myGenderValue = getGender();
+  function monthValidator () {
+      if (monthOfBirth < 1 || monthOfBirth > 12) {
+        return false;
+      } else {
+        return true;
+      }
+    }
