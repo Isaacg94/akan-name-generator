@@ -43,3 +43,10 @@ function getAkanName() {
   var dayValid = dayValidator();
 
   var dayOfTheWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7)
+
+  var maleAkanNames = [
+    "Kwasi!", "Kwadwo!", "Kwabena!", "Kwaku!", "Yaw!", "Kofi!", "Kwame!"
+  ];
+  var femaleAkanNames = [
+    "Akosua!", "Adwoa!", "Abenaa!", "Akua!", "Yaa!", "Afua!", "Ama!"
+  ];
