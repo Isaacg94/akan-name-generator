@@ -50,3 +50,10 @@ function getAkanName() {
   var femaleAkanNames = [
     "Akosua!", "Adwoa!", "Abenaa!", "Akua!", "Yaa!", "Afua!", "Ama!"
   ];
+
+  if(myGenderValue == "male" && monthValid && dayValid){
+    switch (dayOfTheWeekNumber) {
+      case 0:
+        document.getElementById("result").innerHTML = "You were born on a Sunday & your Akan name is " + maleAkanNames[0];
+        return false;
+        break;
