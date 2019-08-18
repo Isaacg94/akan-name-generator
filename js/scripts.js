@@ -124,3 +124,4 @@ function getAkanName() {
       alert("You have enterd an invalid month or day number")
     }
   }
+  
