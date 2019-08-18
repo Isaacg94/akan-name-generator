@@ -92,3 +92,31 @@ function getAkanName() {
         document.getElementById("result").innerHTML = "You were born on a Sunday & your Akan name is " + maleAkanNames[0];
         return false;
         break;
+      case 1:
+        document.getElementById("result").innerHTML = "You were born on a Monday & your Akan name is " + maleAkanNames[1];
+        return false;
+        break;
+      case 2:
+        document.getElementById("result").innerHTML = "You were born on a Tuesday & your Akan name is " + maleAkanNames[2];
+        return false;
+        break;
+      case 3:
+        document.getElementById("result").innerHTML = "You were born on a Wednesday & your Akan name is " + maleAkanNames[3];
+        return false;
+        break;
+      case 4:
+        document.getElementById("result").innerHTML = "You were born on a Thursday & your Akan name is " + maleAkanNames[4];
+        return false;
+        break;
+      case 5:
+        document.getElementById("result").innerHTML = "You were born on a Friday & your Akan name is " + maleAkanNames[5];
+        return false;
+        break;
+      case 6:
+        document.getElementById("result").innerHTML = "You were born on a Saturday & your Akan name is " + maleAkanNames[6];
+        return false;
+        break;
+
+      default:
+      alert("Try again Robot!")
+    }
