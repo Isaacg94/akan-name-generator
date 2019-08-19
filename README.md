@@ -4,6 +4,7 @@
 ![alt text](images/Screenshot1.png)
 
 ![alt text](images/Screenshot2.png)
+## [Livelink to GitHub Pages](https://isaacg94.github.io/akan-name-generator/)
 ## Description
 This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, generates an Akan tribe name. In Ghanian culture, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 ## Behaviour Driven Development (BDD)
