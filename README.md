@@ -32,6 +32,6 @@ Here is a run through of how to set up the application:
 ## Support and contact details
 Primary E-mail Address: 7248zack@gmail.com
 ### License
-*MIT License*
+*MIT License* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT)
 
 Copyright (c) 2019 **Isaac Gichuru**
