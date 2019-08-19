@@ -5,7 +5,7 @@
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="/css/master.css">
+    <!-- <link rel="stylesheet" href="/css/master.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <title>Akan Name Generator</title>
     <link rel="icon" href="images/personallogo1.png" type="img/jpg">
@@ -45,9 +45,9 @@
                    <input id="day-input" type="number" name="day-of-birth" placeholder=" Day Of Birth (dd)" value="" required>
                 </div>
                 <div class="form-group">
-                  <p>Please Select Your Gender</p>
-                  <input id="male-input" type="radio" name="gender" value="male" required> Male<br>
-                  <input id="female-input" type="radio" name="gender" value="female" required> Female<br>
+                  <p id="gender_selector">Please Select Your Gender</p>
+                  <input id="male-input" type="radio" name="gender" value="male" > Male<br>
+                  <input id="female-input" type="radio" name="gender" value="female" > Female<br>
                 </div>
                 <div class="Gen-button">
                   <button onclick="getAkanName()" id="get-name" class="btn btn-secondary">Generate name</button>
