@@ -5,7 +5,7 @@
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <!-- <link rel="stylesheet" href="/css/master.css"> -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <title>Akan Name Generator</title>
     <link rel="icon" href="images/personallogo1.png" type="img/jpg">
@@ -21,7 +21,7 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-6 card-left">
-              <img src="images/ghana1.png" alt="a ghanian flag icon" width="35%">
+              <img class="wow tada" data-wow-duration="3s" data-wow-iteration="1000"src="images/ghana1.png" alt="a ghanian flag icon" width="35%">
               <div class="container">
                 <h2 id="result"></h2>
               </div>
@@ -70,5 +70,9 @@
     </div>
 
     <script src="js/scripts.js" ></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
